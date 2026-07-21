@@ -12,7 +12,6 @@ export const Contacts = () => {
     window.location.href = `mailto:kenasaasfaw1@gmail.com?subject=Message from ${form.name}&body=${form.message}`;
     setForm({ name: "", email: "", message: "" });
   };
-  | 
 
   return (
     <section id="contact" className="py-12 sm:py-16 md:py-20 bg-background text-foreground">

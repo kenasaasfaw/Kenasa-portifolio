@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "../lib/utils";
-import { SiAmazon, SiNetflix, SiApple } from "react-icons/si";
-import { FaLaptopCode } from "react-icons/fa";
+import { SiNetflix, SiApple } from "react-icons/si";
+import { FaLaptopCode, FaAmazon } from "react-icons/fa";
 
 interface Project {
   name: string;
@@ -18,7 +18,7 @@ const projects: Project[] = [
       "A fullstack e-commerce platform where users can browse products, add to cart, and checkout using Stripe payments.",
     tech: ["React", "Redux", "Firebase", "Stripe", "Tailwind CSS"],
     repo: "https://github.com/kenasaasfaw/Amazon-Clone",
-    icon: <SiAmazon size={40} color="#FF9900" />,
+    icon: <FaAmazon size={40} color="#FF9900" />,
   },
   {
     name: "Netflix Clone",
