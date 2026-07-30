@@ -27,7 +27,7 @@ export const Footer = () => {
         ))}
       </div>
       <p className="text-sm text-muted-foreground">
-        © 2025 Kenasa Tech
+        © 2025 TWIN TECHNOLOGY. All rights reserved.  by Kenasa Asfaw.
       </p>
     </footer>
   );

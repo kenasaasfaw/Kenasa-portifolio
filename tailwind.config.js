@@ -16,11 +16,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        background: "#020617",
-        foreground: "#e5e7eb",
-        primary: "#38bdf8",
-        border: "#1e293b",
-        "muted-foreground": "#94a3b8",
+        background: "rgb(var(--background) / <alpha-value>)",
+        foreground: "rgb(var(--foreground) / <alpha-value>)",
+        primary: "rgb(var(--primary) / <alpha-value>)",
+        border: "rgb(var(--border) / <alpha-value>)",
+        "muted-foreground": "rgb(var(--muted-foreground) / <alpha-value>)",
+        "primary-foreground": "#f8fafc",
       },
       keyframes: {
         meteor: {

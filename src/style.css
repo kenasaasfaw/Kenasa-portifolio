@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: 248 250 252;
+  --foreground: 15 23 42;
+  --primary: 6 182 212;
+  --border: 226 232 240;
+  --muted-foreground: 71 85 105;
+}
+
+.dark {
+  --background: 2 6 23;
+  --foreground: 226 232 240;
+  --primary: 56 189 248;
+  --border: 30 41 59;
+  --muted-foreground: 148 163 184;
+}
+
+body {
+  @apply bg-background text-foreground;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

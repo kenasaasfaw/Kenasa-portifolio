@@ -1,3 +1,5 @@
+import profileImage from "./assets/kenasa_photo.jpg";
+
 export const Hero = () => {
   return (
     <section
@@ -5,12 +7,12 @@ export const Hero = () => {
       className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 sm:pt-32"
     >
       {/* Profile Image */}
-      <div className="mb-12">
-        <div className="rounded-full p-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 shadow-[0_0_40px_rgba(56,189,248,0.45)]">
+      <div className="mb-8 flex justify-center">
+        <div className="rounded-full p-3 sm:p-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 shadow-[0_0_70px_rgba(56,189,248,0.55)]">
           <img
-            src="/profile.jpg"
+            src={profileImage}
             alt="Kenasa Asfaw"
-            className="w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full object-cover bg-background"
+            className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full object-cover bg-background"
           />
         </div>
       </div>

@@ -25,7 +25,7 @@ const projects: Project[] = [
     description:
       "A frontend Netflix UI clone fetching movie data from TMDB API and displaying categories with responsive design.",
     tech: ["React", "Tailwind CSS", "Vite", "TMDB API"],
-    repo: "https://github.com/kenasaasfaw/Netflix-clone",
+    repo: "https://github.com/kenasaasfaw/Netflix-clone-2024",
     icon: <SiNetflix size={40} color="#E50914" />,
   },
   {

@@ -1,5 +1,6 @@
 import { cn } from "../lib/utils";
 import { useState, useEffect } from "react";
+import logoImage from "./assets/LOGOfinal.jpg";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -28,12 +29,16 @@ export const Navbar = () => {
         )}
       >
         <div className="container flex items-center justify-between">
-          <a className="text-xl font-bold text-primary flex items-center" href="#hero">
+          <a className="text-xl font-bold text-primary flex items-center gap-3" href="#hero">
+            <img
+              src={logoImage}
+              alt="Twin Technology logo"
+              className="w-10 h-10 object-contain rounded-full"
+            />
             <span className="relative z-10">
-           <span className="text-glow foreground tracking-wide">
-  KENASA TECH
-</span>
-
+              <span className="text-glow foreground tracking-wide">
+                TWIN TECHNOLOGY
+              </span>
             </span>
           </a>
 
