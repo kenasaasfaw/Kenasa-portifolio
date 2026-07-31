@@ -1,6 +1,8 @@
 import profileImage from "./assets/kenasa_photo.jpg";
 
 export const Hero = () => {
+  const cvUrl = "Kenasa_Asfaw_CV.pdf";
+
   return (
     <section
       id="hero"
@@ -30,7 +32,7 @@ export const Hero = () => {
       {/* Download CV Button */}
       <div className="mt-8 sm:mt-10">
         <a
-          href={`${import.meta.env.BASE_URL}Kenasa_Asfaw_CV.pdf`}
+          href={cvUrl}
           download
           className="inline-flex items-center gap-2 px-6 sm:px-8 py-2.5 sm:py-3 rounded-full
                      bg-primary text-primary-foreground font-medium

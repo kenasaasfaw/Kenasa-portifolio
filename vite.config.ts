@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === "serve" ? "/" : "/Kenasa-portifolio/",
+  base: command === "serve" ? "/" : "./",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
